@@ -19,7 +19,7 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
     proxy: {
-      "/api" : "http://localhost:5000",
+      "/api" : "https://random-ideas-thkg.onrender.com",
     },
   },
   module: {
